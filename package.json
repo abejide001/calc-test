@@ -4,7 +4,8 @@
   "description": "A simple calculator",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
   },
   "keywords": [
     "calculator"
@@ -14,5 +15,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "istanbul": "^0.4.5"
   }
 }
